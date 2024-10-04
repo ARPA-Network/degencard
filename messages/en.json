@@ -1,0 +1,73 @@
+{
+  "IndexPage": {
+    "btn-connect": "CONNECT WALLET",
+    "btn-generate": "~GENERATE~ MY DEGEN CARD",
+    "tip-points": "This is your DegenPoints",
+    "tip-tag": "This is your Trader Personality™ tag ",
+    "motto-list": {
+      "0": "GM. It's a good day to get rugged.",
+      "1": "I should have sold… GM.",
+      "2": "We're early! LFG!!",
+      "3": "This time is different, I can feel it.",
+      "4": "Buy high, sell low. That's what I do.",
+      "5": "GM! To the Moon and beyond!",
+      "6": "Doubling the dosage of Hopium today",
+      "7": "GM frens which coin are we apeing today?",
+      "8": "Keep calm and HODL on!",
+      "9": "Pump it up, frens! LFG!!"
+    },
+    "btn-save": "Save & Share my {type} Card!",
+    "coin-none": "None",
+    "coin-up": "My precious",
+    "coin-down": "Pain in the ass",
+    "rank-title": "Monthly PnL Ranking",
+    "btn-name": "Edit name",
+    "btn-avatar": "Change avatar",
+    "btn-motto": "Change motto",
+    "btn-tags": "Reroll tags",
+    "btn-toggle": "Toggle Volume/ Percentage",
+    "NameError": {
+      "empty": "Error: Username cannot be empty.",
+      "invalid_string": "Error: Username can only contain letters, numbers, and underscores.",
+      "too_small": "Error: Username must be at least 3 characters long.",
+      "too_big": "Error: Username must not exceed 15 characters."
+    },
+    "tab-degen": "Degen Card",
+    "tab-token": "Token Card"
+  },
+  "Loading": {
+    "error": "Something is wrong, try again later!",
+    "0": "Analyzing your Degenness...",
+    "1": "Loading MBTI module...",
+    "2": "Collecting Pepe's tears...",
+    "3": "Throwing away McDonald's hat..."
+  },
+  "TokenCard": {
+    "bought": "Bought",
+    "sold": "Sold",
+    "hold": "Hold",
+    "profit": "Profit",
+    "pnl": "PNL",
+    "title": "Click a token icon on Degen Card to generate Token Card"
+  },
+  "Modal": {
+    "title1": "Your card is generated and saved!",
+    "title11": "Wanna share it with frens?",
+    "title2": "First",
+    "title3": "then",
+    "title4": "& paste!",
+    "title5": "Or",
+    "btn-copy": "Copy card to clipboard",
+    "copied": "copied!",
+    "btn-share": "Post on <icon>𝕏</icon>",
+    "btn-download": "Download my card as image <icon>⇩</icon>",
+    "text-share": "Just%20created%20my%20{type}%20Card%2C%20create%20yours%20on%20degencard.wtf%20%40degencard_wtf",
+    "ios-download": "Or open the link in external browsers to download your card!",
+    "android-download": "Open the link in external browsers to download your card!",
+    "btn-link": "Copy link"
+  },
+  "LocaleSwitcher": {
+    "label": "Language",
+    "locale": "{locale, select, zh {🇨🇳 Chinese} en {🇺🇸 English} other {Unknown}}"
+  }
+}

@@ -1,0 +1,245 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  width: 100dvw;
+  height: 100dvh;
+  background: linear-gradient(
+    70deg,
+    rgb(255 173 246) 0%,
+    rgb(255 246 177) 100%
+  );
+}
+
+body {
+  height: 100%;
+}
+
+div {
+  border-color: black;
+}
+
+.wallet-top {
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 767px) {
+  .wallet-top button.wallet-adapter-button {
+    height: 1.7rem;
+    padding: 0 0.6rem;
+    font-size: x-small;
+  }
+  
+  .wallet-top button.wallet-adapter-button i {
+    width: 0.9rem;
+    height: 0.9rem;
+    margin-right: 0.5rem;
+  }
+}
+
+@layer utilities {
+  .bg-gradient-home {
+    background: linear-gradient(
+      70deg,
+      rgb(255 173 246) 0%,
+      rgb(255 246 177) 100%
+    );
+  }
+
+  .bg-gradient-profile {
+    background: linear-gradient(
+      90deg,
+      rgb(30 74 168) 0%,
+      rgb(189 113 223) 100%
+    );
+  }
+
+  .bg-profile-cudis {
+    background: url('/cudis_bg.png');
+  }
+
+  .bg-gradient-bar {
+    background: linear-gradient(
+      90deg,
+      rgb(88 111 246) 0%,
+      rgb(236 112 192) 100%
+    );
+  }
+
+  .bg-gradient-badge {
+    background: linear-gradient(
+      90deg,
+      rgb(183 111 211) 0%,
+      rgb(32 74 169) 100%
+    );
+  }
+
+  .card-border {
+    @apply border border-black rounded-lg xs:rounded-xl;
+  }
+
+  .tag {
+    background: linear-gradient(
+      90deg,
+      rgb(243 177 241) 0%,
+      rgb(253 245 183) 100%
+    );
+    @apply border mb-2 pr-2 pl-5 text-center;
+  }
+
+  .arrow-left1 {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 20px solid rgb(244 186 233);
+  }
+  .arrow-left2 {
+    width: 0;
+    height: 0;
+    border-top: 11px solid transparent;
+    border-bottom: 11px solid transparent;
+    border-right: 21px solid black;
+  }
+
+  .text-shadow {
+    text-shadow: 1.7px 1.7px #820029;
+  }
+
+  .token-box {
+    @apply card-border w-full h-full;
+  }
+
+  .token-rec {
+    @apply card-border w-full h-full;
+  }
+
+  .bg-gradient-up {
+    background: linear-gradient(
+      85deg,
+      rgb(38 91 193) 0%,
+      rgb(40 219 121) 50%,
+      rgb(238 156 249) 100%
+    );
+  }
+
+  .bg-gradient-down {
+    background: linear-gradient(
+      0deg,
+      rgb(228 228 228) 0%,
+      rgb(175 163 166) 50%,
+      rgb(239, 209, 243) 100%
+    );
+  }
+
+  .box-gradient-down {
+    background: linear-gradient(
+      0deg,
+      rgb(208 205 210) 0%,
+      rgb(170 166 173) 30%,
+      rgb(171 160 175) 60%,
+      rgb(236, 205, 239) 100%
+    );
+  }
+
+  .box-gradient-up {
+    background: linear-gradient(
+      38deg,
+      rgb(38 91 193) 0%,
+      rgb(38 91 193) 18%,
+      rgb(78, 215, 140) 52%,
+      rgb(238 156 249) 85%,
+      rgb(238 156 249) 100%
+    );
+  }
+
+  .rec-gradient-up {
+    background: linear-gradient(
+      40deg,
+      rgb(38 91 193) 0%,
+      rgb(38 91 193) 52%,
+      rgb(78, 215, 140) 74%,
+      rgb(238 156 249) 100%
+    );
+  }
+
+  .bar-gradient-up {
+    background: linear-gradient(
+      40deg,
+      rgb(38 91 193) 0%,
+      rgb(38 91 193) 65%,
+      rgb(78, 215, 140) 81%,
+      rgb(238 156 249) 98%,
+      rgb(238 156 249) 100%
+    );
+  }
+
+  .rec-left {
+    @apply px-[4.7%] flex flex-col items-center justify-between py-[4.3%];
+  }
+
+  .button {
+    @apply text-gray-800 text-[0.8rem] font-semibold card-border;
+  }
+
+  .card-btn-color {
+    @apply bg-gradient-to-b from-gray-300 to-white active:to-gray-300;
+  }
+
+  .card-btn-mobile {
+    @apply card-btn-color text-gray-800 text-xs border border-black rounded-md;
+  }
+
+  .card-button {
+    @apply button card-btn-color;
+  }
+
+  .modal-btn-mobile {
+    @apply card-btn-color text-gray-800 text-xs card-border font-normal leading-tight
+  }
+
+  .card-btn-group {
+    @apply hidden lg:flex button bg-gradient-to-b from-gray-200 to-white flex-col overflow-hidden;
+  }
+
+  .btn-item {
+    @apply h-16 flex items-center px-3 active:bg-gray-200;
+  }
+
+  .tooltip {
+    @apply absolute -top-1 right-[0.4rem] w-[27%];
+  }
+
+  .tooltip-text {
+    @apply invisible absolute -top-10 bg-black/70 text-white p-2 rounded-lg;
+  }
+
+  .tooltip:hover .tooltip-text {
+    @apply visible;
+  }
+
+  .tooltip-tag {
+    @apply invisible absolute -top-16 bg-black/70 text-white p-2 rounded-lg;
+  }
+
+  .tag-wrapper:hover .tooltip-tag {
+    @apply visible;
+  }
+
+  .modal-text {
+    @apply text-violet-500 font-bold text-[0.95rem] xs:text-xl sm:text-2xl md:text-[1.7rem];
+  }
+
+  .overlay {
+    @apply absolute w-full h-full bg-gray-500/50 top-0 flex justify-center items-center;
+  }
+
+  .bg-logo {
+    @apply w-[16rem] md:w-[12rem] bg-repeat-y bg-contain opacity-15 md:opacity-30 bg-[url('/bg.svg')];
+  }
+
+  .coin-box {
+    @apply card-border bg-violet-500 w-[48.5%] px-[0.2rem] xs:px-[0.6rem] py-[0.2rem] xs:py-[0.4rem] flex flex-col;
+  }
+}

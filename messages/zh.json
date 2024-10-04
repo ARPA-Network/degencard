@@ -1,0 +1,73 @@
+{
+  "IndexPage": {
+    "btn-connect": "连接钱包",
+    "btn-generate": "~生成~ 我的Degen卡",
+    "tip-points": "这是你的DegenPoints",
+    "tip-tag": "这是你的交易性格tag",
+    "motto-list": {
+      "0": "又是勤勤恳恳当韭菜的一天。",
+      "1": "人家赚得飞起，我割肉如瀑布。",
+      "2": "勇于抄底，赚了就跑。",
+      "3": "10U翻身，就在今天！起飞！",
+      "4": "哥们是高买低卖小能手。",
+      "5": "愿一觉醒来后面能加俩零。",
+      "6": "哥哥，拉盘前别忘了喊我一声。",
+      "7": "哥们，今天冲哪个土狗啊？",
+      "8": "争当钻石手，争当护盘小能手。",
+      "9": "希望每天撸毛都能撸出猪脚饭。"
+    },
+    "btn-save": "保存并分享我的{type}卡！",
+    "coin-none": "无",
+    "coin-up": "宝贝币",
+    "coin-down": "坑爹币",
+    "rank-title": "月交易盈亏排行",
+    "btn-name": "编辑用户名",
+    "btn-avatar": "更换头像",
+    "btn-motto": "更换格言",
+    "btn-tags": "重抽性格tags",
+    "btn-toggle": "切换金额/百分比",
+    "NameError": {
+      "empty": "错误：用户名不能为空。",
+      "invalid_string": "错误：用户名只能包含字母、数字和下划线。",
+      "too_small": "错误：用户名长度必须至少为3个字符。",
+      "too_big": "错误：用户名长度不得超过15个字符。"
+    },
+    "tab-degen": "Degen卡",
+    "tab-token": "代币卡"
+  },
+  "Loading": {
+    "error": "出错了，请稍后再试。",
+    "0": "分析你的Degen成分...",
+    "1": "调用 MBTI 性格测试模组...",
+    "2": "搜集Pepe蛙的眼泪...",
+    "3": "扔掉搬砖工服..."
+  },
+  "TokenCard": {
+    "bought": "买入",
+    "sold": "卖出",
+    "hold": "持有",
+    "profit": "利润",
+    "pnl": "盈亏",
+    "title": "点击Degen卡上的代币图标生成代币卡"
+  },
+  "Modal": {
+    "title1": "你的卡片已生成并被保存。",
+    "title11": "想把它晒给朋友们看吗？",
+    "title2": "首先",
+    "title3": "然后",
+    "title4": "时粘贴!",
+    "title5": "或者",
+    "copied": "复制成功!",
+    "btn-copy": "复制卡片到剪贴板",
+    "btn-share": "去 <icon>𝕏</icon> 发贴",
+    "btn-download": "下载卡片图像 <icon>⇩</icon>",
+    "text-share": "%E5%88%9A%E6%8D%8F%E4%BA%86%E6%88%91%E7%9A%84{type}%E5%8D%A1%EF%BC%8C%E6%9D%A5degencard.wtf%E5%88%9B%E5%BB%BA%E4%BD%A0%E7%9A%84%E5%90%A7%EF%BC%81%40degencard_wtf",
+    "ios-download": "或者去外部浏览器打开链接下载卡片吧！",
+    "android-download": "去外部浏览器打开链接下载卡片吧！",
+    "btn-link": "复制链接"
+  },
+  "LocaleSwitcher": {
+    "label": "语言",
+    "locale": "{locale, select, zh {🇨🇳 中文} en {🇺🇸 英文} other {未知}}"
+  }
+}
